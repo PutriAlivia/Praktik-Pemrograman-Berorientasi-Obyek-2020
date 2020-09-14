@@ -20,6 +20,11 @@ muncul	peringatan	“Kecepatan tidak bisa bertambah karena Mesin Off!”?
 
 : 
 
+
+![OutputPertambahanKec](https://user-images.githubusercontent.com/70506138/93059664-3ce18d80-f69b-11ea-88df-b0143ab4dce2.PNG)
+
+
+
 Output akhir dari percobaan 3 dan 4 
 
 
