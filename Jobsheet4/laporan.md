@@ -1,77 +1,43 @@
-# Laporan Praktikum Jobsheet 3
+# Laporan Praktikum Jobsheet 4
 
-## Outout program
-Output akhir dari percobaan 1 dan 2
+Percobaan 1
+Output
 
-![OutputMotor](https://user-images.githubusercontent.com/70506138/93057251-cee79700-f697-11ea-9c60-036555af56e6.PNG)
+![Output jbs4 laptop](https://user-images.githubusercontent.com/70506138/93744937-d4eff180-fc1c-11ea-8845-53c6affcd921.PNG)
 
-Pertanyaan 
+Pertanyaan
+Berdasarkan percobaan 1, jawablah pertanyaan‑pertanyaan yang terkait:
+1.	Di dalam class Processor dan class Laptop , terdapat method setter dan getter untuk masing‑masing atributnya. Apakah gunanya method setter dan getter tersebut ?
+: memiliki fungsi untuk mengakses data dan mengisi nya kedalam  suatu objek 
 
-1. Pada	 class	 TestMobil,	 saat	 kita	 menambah	 kecepatan	 untuk	 pertama	 kalinya,	 mengapa	
-muncul	peringatan	“Kecepatan tidak bisa bertambah karena Mesin Off!”?	
+2.	Di dalam class Processor dan class Laptop, masing‑masing terdapat konstruktor default dan konstruktor berparameter. Bagaimanakah beda penggunaan dari kedua jenis konstruktor tersebut ?
+: Konstruktor default tidak memiliki argumen atau parameter apa pun. Di sisi lain konstruktor yang diparameterisasi harus memiliki beberapa argumen atau parameter.
 
-: Karena belum di deklaraasikan perintah untuk menyalakan mesin nya maka mustahil jika menambah kecepatan sedangkan mesi nya belum dihidupkan
+3.	Perhatikan class Laptop, di antara 2 atribut yang dimiliki (merk dan proc), atribut manakah yang bertipe object ?
+: merk 
 
-2. Mengapat	atribut	kecepatan	dan	kontakOn	diset	private?	
-
-: agar hanya bisa diakses di	dalam	kelas	yang	sama
-
-3. Ubah	class	Motor	sehingga	kecepatan	maksimalnya	adalah	100!
-
+4.	Perhatikan class Laptop, pada baris manakah yang menunjukan bahwa class Laptop
+memiliki relasi dengan class Processor ?
 : 
+public void setproc(Processor proc){
+        this.proc = proc;
+    }
+    public String getmerk(){
+        return merk;
+    }
+    public Processor getproc(){
+        return proc;
+    }
+    
+5.	Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?
+: untuk bisa mengakses class Processor jika sintaks proc. Info di hilangkan maka output  akan menjadi
+
+![hilang proc](https://user-images.githubusercontent.com/70506138/93745007-f6e97400-fc1c-11ea-93cb-8d8d0cbe09af.PNG)
+
+6.	Pada class MainPercobaan1, terdapat baris kode: Laptop l = new Laptop("Thinkpad", p);. Apakah p tersebut ?
+Dan apakah yang terjadi jika baris kode tersebut diubah menjadi:
+Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3));
+Bagaimanakah hasil program saat dijalankan, apakah ada perubahan ?
 
 
-![OutputPertambahanKec](https://user-images.githubusercontent.com/70506138/93059664-3ce18d80-f69b-11ea-88df-b0143ab4dce2.PNG)
-
-
-
-Output akhir dari percobaan 3 dan 4 
-
-
-![OutputKoperasi](https://user-images.githubusercontent.com/70506138/93057847-bfb51900-f698-11ea-9d98-0f26dfa353b0.PNG)
-
-
-Pertanyaan 
-
-1. Apa	yang	dimaksud	getter	dan	setter?
-
-: Getter	adalah	public	method	dan	memiliki	tipe	data	return,	yang	berfungsi	untuk	mendapatkan	nilai	
-dari	 atribut	 private.	 Sedangkan	 setter	 adalah	 public	 method	 yang	 tidak	 memliki	 tipe	 data	 return,	
-yang	berfungsi	untuk	memanipulasi	nilai	dari	atribut	private.
-
-2. Apa	kegunaan	dari	method	getSimpanan()?
-
-: berfungsi	untuk	mendapatkan	nilai	
-dari	 atribut	 private 
-
-3. Method	apa	yang	digunakan	untk	menambah	saldo?
-
-: void
-
-4. Apa	yand	dimaksud	konstruktor?
-
-: Konstruktor	 mirip	 dengan method	 cara	 deklarasinya	 akan tetapi	 tidak	 memiliki	 tipe	 return 
-
-5. Sebutkan	aturan	dalam	membuat	konstruktor?
-
-: . Nama	konstruktor	harus	sama	dengan	nama	class
-
-  . Konstruktor	tidak	memiliki	tipe	data	return
-  
-  . Konstruktor	tidak	boleh menggunakan	modifier abstract,	static,	final,	dan	syncronized
-  
-6. Apakah	boleh	konstruktor	bertipe	private?
-
-: Tidak boleh
-
-7. Kapan	menggunakan	parameter	dengan	passsing	parameter?
-
-: ketika ingin mengirim dan atau mengembalikan suatu nilai kepada fungsi atau prosedur
-
-8. Apa	perbedaan	atribut	class	dan	instansiasi	atribut?
-
-:
-
-9. Apa	perbedaan	class	method	dan	instansiasi	method?	
-
-:
+![image](https://user-images.githubusercontent.com/70506138/93745281-78d99d00-fc1d-11ea-8009-d454d58719b4.png)
