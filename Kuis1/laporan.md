@@ -1,3 +1,4 @@
 # Diagram class
 
-![ClassDiagramKuis](https://user-images.githubusercontent.com/70506138/94405136-52c27880-019a-11eb-8371-cf19de4166ef.PNG)
+![ClassDiagramManusia](https://user-images.githubusercontent.com/70506138/94417087-d8015980-01a9-11eb-9836-ad7df80e7614.PNG)
+
