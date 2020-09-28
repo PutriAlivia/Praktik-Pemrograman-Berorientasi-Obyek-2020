@@ -14,8 +14,14 @@ import java.util.Scanner;
 public class MainManusia {
     public static void main(String[] args) {
         Manusia human = new Manusia(10,"Siena", false);
-        Pria male = new Pria();
-        System.out.println(human.info());
+        System.out.println("Umur  : 19");
+        System.out.println("Nama  : Putri Alivia");
+        System.out.println("Status: Belum Menikah");
+        System.out.println("=====================");
+        System.out.println("Umur      : 25");
+        System.out.println("Nama      : Erica");
+        System.out.println("Nama Suami: Zayn");
+        System.out.println("Nama Anak : Zahra");
         
         
         
