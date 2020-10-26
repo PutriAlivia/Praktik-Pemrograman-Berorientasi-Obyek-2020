@@ -1,4 +1,3 @@
-# Diagram class
+# DHasil Output
 
-![ClassDiagramManusia](https://user-images.githubusercontent.com/70506138/94417087-d8015980-01a9-11eb-9836-ad7df80e7614.PNG)
-
+![HasilOutput](https://user-images.githubusercontent.com/70506138/96417113-2048f000-121b-11eb-8732-18ae0dfd0394.PNG)
