@@ -21,7 +21,8 @@ Jawab : penyebabnya karena class interface ICumlaude yang berada pada satu packa
 2.Pada langkah ke 9, pada baris program ke 3. Apa yang terjadi jika script tersebut 
 dihilangkan? Jelaskan menurut pemahaman anda.
 
-Jawab=
+Jawab : akan mengeluarkan build succesfull karena tidak ada intansiasi dari class-class yang dipanggil.
+
 
 3.Mengapa pada langkah nomor 9 terjadi error? Jelaskan!
 
@@ -36,7 +37,7 @@ Jawab : terjadi error,karena bukan dalam bagian implementasi karena method kulia
 5.Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa di method 
 beriSertifikatCumlaude() pada class Rektor? Mengapa demikian?
 
-Jawab : 
+Jawab : tidak bisa, karena bukan dalam bagian implementasi,karena method tersebut berada dalam class mahasiswa bukan kedalam method hasil implements
 
 6.Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi 
 class Program menjadi seperti berikut ini:
@@ -61,11 +62,15 @@ dibawah ini :
 
 Dari perubahan script diatas, apa yang terjadi ? serta jelaskan alasannya (capture hasilnya)
 
+Jawab : terjadi error karena tidak diperbolehan untuk menjadi protected,jika digunakan protected maka tidak bisa mengimplement ke class yang lain
+
 2. Perhatikan script code dibawah ini :
 
 ![percobaan2](https://user-images.githubusercontent.com/70506138/98509820-819d3580-2294-11eb-951e-8353f3e48f3b.PNG)
 
 Jelaskan menurut anda, mengapa hasil dari script code tersebut error ? 
+
+Jawab : karena classnya adalah abstract jadi tidak bisa di instansisasi ke dalam main
 
 3. Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan
 menerbitkan artikel di jurnal NASIONAL, maka modifikasilah class-class yang terkait
@@ -73,4 +78,7 @@ pada aplikasi Anda agar di class Program objek pakRektor dapat memberikan sertif
 mawapres pada objek sarjanaCumlaude.
 
 ![percobaan3](https://user-images.githubusercontent.com/70506138/98509866-98438c80-2294-11eb-83ad-fe984a8e667c.PNG)
+
+Jawab : pertama menambahkan implements pada class Sarjana dan Prasarjana yang sebelumnya pada class abstract IBerprestasi sudah
+ada method menjuaraiKompetisi dan MembuatPublikasiIlmiah lalu di implementasikan dan diisi setiap method tersebut dengan value yang dinginkan
 
