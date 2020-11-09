@@ -1,48 +1,54 @@
-# Laporan Latihan Jobsheet 9
+# Laporan Latihan Jobsheet 10
 
 **Latihan**
 
-![Latihan4 1](https://user-images.githubusercontent.com/70506138/97143625-9d351600-1795-11eb-8e1a-1c138cc31fa5.PNG)
+Output Program Praktikum
 
-4.1 Dari source coding diatas terletak dimanakah overloading?
+![output](https://github.com/LulukMufida015/PBO-1941720052/blob/master/pertemuan10/img/outPrak.JPG)
 
-Jawab: 
+Pertanyaan diskusi!
 
-![Jawab4 1](https://user-images.githubusercontent.com/70506138/97144400-f2bdf280-1796-11eb-8a19-955484679b05.PNG)
+Bolehkah  apabila  sebuah  class  yang  meng-extend  suatu  abstract  class  tidak 
+mengimplementasikan method abstract yang ada di class induknya? Buktikan! 
 
+Jawab: Tidak Boleh, karena subclass akan terjadi error dan meminta untuk melakukan override terhadap kelas parentnya.
 
-4.2 Jika terdapat overloading ada berapa jumlah parameter yang berbeda?
+Pembuktian
 
-Jawab: hanya terdapat satu parameter yang berbeda yaitu int c
+![output](https://github.com/LulukMufida015/PBO-1941720052/blob/master/pertemuan10/img/diskusi.JPG)
 
+Pertanyaan!
 
-![Latihan4 2](https://user-images.githubusercontent.com/70506138/97143859-09b01500-1796-11eb-9375-fc7fe6d4ccda.PNG)
+1. Berikan penjelasan terkait tentang jalannya program diatas
 
-4.3 Dari source coding diatas terletak dimanakah overloading?
+Jawab: Program diatas dimulai dari membuat class Hewan yang memiliki method abstract yang diberi nama bergerak() kemuadian class tersebut memiliki subclass Kucing dan Ikan dan kedua kelas tersebut extends dengan class Hewan yang merupakan class abstract oleh sebab itu class Hewan akan meng-override methodnya kepada kedua subclass. Kemudian terdapat class orang yang berisi nama dan juga method peliharaanHewan untuk memanggil method yang ada di class hewan yakni bergerak yang merujuk pada dua class dan hal tersebut diisikan pada parameter method itu, serta terdapat method untuk menampilkan info data yang dipanggil yakni ajakPeliharaanJalanJalan(). Terakhir terdapat class Program yang berisi main untuk membuat sebuah objek dari subclass dan memanggil method dari masing masing class tersebut lalu memanggil method ajakPeliharaanJalanJalan() untuk mencetak info yang didapat.
 
-Jawab:
+2. Tunjukkan hasil kompilasi program dan berikan penjelasan singkat jika method
+bergerak() diubah menjadi method abstract!
 
-![Jawab4 2](https://user-images.githubusercontent.com/70506138/97144481-1da84680-1797-11eb-8f9b-c0c788a7071f.PNG)
+Jawab: Pada class Hewan method bergerak sudah menjadi method abstract dan tidak terjadi error karena merupakan class abstract namun jika yang diubah adalah method bergerak dari class Kucing dan Ikan maka akan terjadi error karena class tersebut bukan class abstract melainkan class turunan dari class abstract.
 
+Kompilasi
 
-4.4 Jika terdapat overloading ada berapa tipe parameter yang berbeda?
-
-Jawab: Dua, yaitu parameter double a dan parameter double b
-
-
-![Latihan4 3](https://user-images.githubusercontent.com/70506138/97143997-47ad3900-1796-11eb-88f5-9161e037ae83.PNG)
-
-
-4.5 Dari source coding diatas terletak dimanakah overriding?
-
-Jawab:
-
-![Jawab4 3](https://user-images.githubusercontent.com/70506138/97144515-2d278f80-1797-11eb-806c-6b3b3a7da24c.PNG)
+![output](https://github.com/LulukMufida015/PBO-1941720052/blob/master/pertemuan10/img/outPrak.JPG)
 
 
-4.6 Jabarkanlah apabila sourcoding diatas jika terdapat overriding?
+3. Tunjukkan hasil kompilasi program dan berikan penjelasan singkat jika tidak dilakukan 
+overriding terhadap method bergerak()
 
-Jawab:
+jawab: Maka akan terjadi error pada class tersebut karena class turunan dari class abstract harus mewarisi atau melakukan overriding dari method parentnya.
 
-![Jawab4 3](https://user-images.githubusercontent.com/70506138/97144515-2d278f80-1797-11eb-806c-6b3b3a7da24c.PNG)
+Kompilasi
 
+![output](https://github.com/LulukMufida015/PBO-1941720052/blob/master/pertemuan10/img/3.JPG)
+
+4. Tunjukkan hasil kompilasi program dan berikan penjelasan singkat jika abstract method
+bergerak()yang dideklarasikan dalam Class Ikan 
+
+Jawab: Maka akan terjadi error pada class Ikan karena merupakan class turunan dan bukan berupa class abstract.
+
+Kompilasi
+
+![output](https://github.com/LulukMufida015/PBO-1941720052/blob/master/pertemuan10/img/4.JPG)
+
+![output](https://github.com/LulukMufida015/PBO-1941720052/blob/master/pertemuan10/img/4.2.JPG)
