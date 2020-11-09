@@ -3,7 +3,8 @@
 **Hasil Output**
 
 
-![OutputCumlaude](https://user-images.githubusercontent.com/70506138/98508344-e99e4c80-2291-11eb-96d3-8cd34f85d4dd.PNG)
+![OutputHasilCumlaude](https://user-images.githubusercontent.com/70506138/98508589-48fc5c80-2292-11eb-8edc-f89d38376b02.PNG)
+
 
 
 **Latihan**
