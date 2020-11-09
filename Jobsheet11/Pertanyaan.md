@@ -1,48 +1,45 @@
-# Laporan Latihan Jobsheet 9
+# Laporan Latihan Jobsheet 11
+
+**Hasil Output**
+
+
+![OutputCumlaude](https://user-images.githubusercontent.com/70506138/98508344-e99e4c80-2291-11eb-96d3-8cd34f85d4dd.PNG)
+
 
 **Latihan**
 
-![Latihan4 1](https://user-images.githubusercontent.com/70506138/97143625-9d351600-1795-11eb-8e1a-1c138cc31fa5.PNG)
+1. 1) Pada langkah ke 9, pada baris program ke 3 terdapat warning pada script tersebut.
+Jelaskan penyebab terjadinya hal tersebut ?
 
-4.1 Dari source coding diatas terletak dimanakah overloading?
+![pertanyaanNo1](https://user-images.githubusercontent.com/70506138/98508097-7694d600-2291-11eb-919f-37ad0d8e1d2a.PNG)
 
-Jawab: 
+Jawab : penyebabnya karena class interface ICumlaude yang berada pada satu package
 
-![Jawab4 1](https://user-images.githubusercontent.com/70506138/97144400-f2bdf280-1796-11eb-8a19-955484679b05.PNG)
+2.Pada langkah ke 9, pada baris program ke 3. Apa yang terjadi jika script tersebut 
+dihilangkan? Jelaskan menurut pemahaman anda.
 
+Jawab=
 
-4.2 Jika terdapat overloading ada berapa jumlah parameter yang berbeda?
+3.Mengapa pada langkah nomor 9 terjadi error? Jelaskan!
 
-Jawab: hanya terdapat satu parameter yang berbeda yaitu int c
+Jawab : Karena dari class mahasiswa belum melakukan implements ke class interface ICumlaude
 
+4.Dapatkah method kuliahDiKampus() dipanggil dari objek sarjanaCumlaude di class
+Program? Mengapa demikian?
 
-![Latihan4 2](https://user-images.githubusercontent.com/70506138/97143859-09b01500-1796-11eb-9375-fc7fe6d4ccda.PNG)
-
-4.3 Dari source coding diatas terletak dimanakah overloading?
-
-Jawab:
-
-![Jawab4 2](https://user-images.githubusercontent.com/70506138/97144481-1da84680-1797-11eb-8f9b-c0c788a7071f.PNG)
-
-
-4.4 Jika terdapat overloading ada berapa tipe parameter yang berbeda?
-
-Jawab: Dua, yaitu parameter double a dan parameter double b
+Jawab : terjadi error,karena bukan dalam bagian implementasi karena method kuliahDiKampus merupakan bagian dari class mahasiswa
 
 
-![Latihan4 3](https://user-images.githubusercontent.com/70506138/97143997-47ad3900-1796-11eb-88f5-9161e037ae83.PNG)
+5.Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa di method 
+beriSertifikatCumlaude() pada class Rektor? Mengapa demikian?
+
+Jawab : 
+
+6.Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi 
+class Program menjadi seperti berikut ini:
 
 
-4.5 Dari source coding diatas terletak dimanakah overriding?
-
-Jawab:
-
-![Jawab4 3](https://user-images.githubusercontent.com/70506138/97144515-2d278f80-1797-11eb-806c-6b3b3a7da24c.PNG)
+![pertanyaanNo10](https://user-images.githubusercontent.com/70506138/98508232-b9ef4480-2291-11eb-8ac9-2521809bb9f4.PNG)
 
 
-4.6 Jabarkanlah apabila sourcoding diatas jika terdapat overriding?
-
-Jawab:
-
-![Jawab4 3](https://user-images.githubusercontent.com/70506138/97144515-2d278f80-1797-11eb-806c-6b3b3a7da24c.PNG)
-
+Jawab : Tinggal menambhan saja System.out.printlns pada class Sarjana dan PascaSarjana denngan value yang dinginkan di daerah method lulus
