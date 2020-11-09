@@ -1,5 +1,7 @@
 # Laporan Latihan Jobsheet 11
 
+# Percobaan 1
+
 **Hasil Output**
 
 
@@ -44,3 +46,31 @@ class Program menjadi seperti berikut ini:
 
 
 Jawab : Tinggal menambhan saja System.out.printlns pada class Sarjana dan PascaSarjana denngan value yang dinginkan di daerah method lulus
+
+
+# Percobaan 2
+
+![OutputBerprestasi](https://user-images.githubusercontent.com/70506138/98509754-5c102c00-2294-11eb-97ad-f7b4df2f7a8b.PNG)
+
+**Pertanyaan Percobaan**
+
+1. Pada script code interface IBerprestasi, modifikasi script tersebut sesuai dengan gambar
+dibawah ini :
+
+![percobaan1](https://user-images.githubusercontent.com/70506138/98509783-6e8a6580-2294-11eb-9a65-7f648ab1c1e6.PNG)
+
+Dari perubahan script diatas, apa yang terjadi ? serta jelaskan alasannya (capture hasilnya)
+
+2. Perhatikan script code dibawah ini :
+
+![percobaan2](https://user-images.githubusercontent.com/70506138/98509820-819d3580-2294-11eb-951e-8353f3e48f3b.PNG)
+
+Jelaskan menurut anda, mengapa hasil dari script code tersebut error ? 
+
+3. Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan
+menerbitkan artikel di jurnal NASIONAL, maka modifikasilah class-class yang terkait
+pada aplikasi Anda agar di class Program objek pakRektor dapat memberikan sertifikat
+mawapres pada objek sarjanaCumlaude.
+
+![percobaan3](https://user-images.githubusercontent.com/70506138/98509866-98438c80-2294-11eb-83ad-fe984a8e667c.PNG)
+
