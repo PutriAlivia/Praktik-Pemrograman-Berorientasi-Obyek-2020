@@ -1,5 +1,11 @@
 # Laporan Latihan Jobsheet 11
 
+**Hasil Output**
+
+
+![OutputCumlaude](https://user-images.githubusercontent.com/70506138/98508344-e99e4c80-2291-11eb-96d3-8cd34f85d4dd.PNG)
+
+
 **Latihan**
 
 1. 1) Pada langkah ke 9, pada baris program ke 3 terdapat warning pada script tersebut.
